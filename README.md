@@ -89,7 +89,7 @@ This repository also contains a basic [Home Assistant](https://home-assistant.io
 
 1) SSH into the host through port 22222 to get all necessary privileges (follow setup [there](https://developers.home-assistant.io/docs/hassio_debugging/)).  /!\ Using the SSH add-on will not work, it gives access to port 22. Use Putty for instance: 
 ```
-ssh root@192.196.XX.XX -p 22222
+ssh root@192.168.XX.XX -p 22222
 ```
 You will be logged into the Home Assistant command line interface and type `login` to access the host system.
  
