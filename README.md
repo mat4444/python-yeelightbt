@@ -80,12 +80,11 @@ $ yeelightbt color 255 0 0
 Setting color: 255 0 0
 ```
 
-# Homeassistant support
+# Home Assistant support
 
 This repository also contains a basic [Home Assistant](https://home-assistant.io/) custom component.
 
-
-## Manual Installation
+## Yeelightbt installation on Home Assistant (for Raspberry Pi)
 
 1) SSH into the host through port 22222 to get all necessary privileges (follow setup [there](https://developers.home-assistant.io/docs/hassio_debugging/)).  /!\ Using the SSH add-on will not work, it gives access to port 22. Use Putty for instance: 
 ```
@@ -110,7 +109,9 @@ pip install git+https://github.com/rytilahti/python-yeelightbt/
 
 5) Ensure the light is ON and the switch is on the bluetooth position (at least for the Candela). Detect the supported devices and check if the lamp can be turned on/off with the commands described above.
 
-6) Copy `yeelight_bt` directory located under `custom_components` over to `~/.homeassistant/custom_components/`.
+## Custom Component Installation
+
+Copy `yeelight_bt` directory located under `custom_components` over to `~/.homeassistant/custom_components/`.
 
 ## Configuration
 
